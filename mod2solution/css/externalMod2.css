@@ -1,5 +1,5 @@
-*{box-sizing: border-box; margin: 0px; padding: 0px; }  /*resetting browser's default models*/
-         
+    *{box-sizing: border-box; margin: 0px; padding: 0px; }  /*resetting browser's default models*/
+   
           /*styling h2 element*/
 		h2{margin-top: 30px; font-family: Helvetica; text-align: center; font-size: 28px; } 
          
@@ -19,19 +19,19 @@
         
         /*setting breakpoints for desktop, tablet and phone*/
   		@media (min-width: 992px) {
-  		#dem1 {width: 31%; margin-right: 10px; margin-left: 20px}
-  		#dem2 {width: 31%;}
-  		#dem3 {width: 31%;} 
-								  }  
+  		#dem1 {width: 31%; margin-right: 10px; margin-left: 20px; margin-bottom: 20px;}
+  		#dem2 {width: 31%; margin-bottom: 20px;}
+  		#dem3 {width: 31%; margin-bottom: 20px;} 
+								                }  
 
   		@media (min-width: 768px) and (max-width: 991px){
   		#dem1 {width: 47%; margin-left: 20px;}
   		#dem2 {width: 47%; margin-right: 10px;}
-  		#dem3 {width: 95%; margin-left: 20px; margin-right: 10px;} 
+  		#dem3 {width: 95%; margin-left: 20px; margin-right: 10px; margin-bottom: 20px;} 
  														 }
 
    		@media (max-width: 767px) {
   		#dem1 {width: 93%; margin-left: 30px; margin-right: 20px;}
   		#dem2 {width: 93%;  margin-left: 30px; margin-right: 20px;}
-  		#dem3 {width: 93%;  margin-left: 30px; margin-right: 20px;} 
- 		}
+  		#dem3 {width: 93%;  margin-left: 30px; margin-right: 20px; margin-bottom: 20px;} 
+ 		                             }
